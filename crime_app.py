@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
-import seaborn as sns
-from sklearn.metrics import accuracy_score,precision_score,f1_score,confusion_matrix,classification_report
+#import seaborn as sns
+#from sklearn.metrics import accuracy_score,precision_score,f1_score,confusion_matrix,classification_report
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 
 import streamlit as st 
 import base64
