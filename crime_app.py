@@ -17,6 +17,8 @@ st.set_page_config(page_title='Crime Prediction system',layout='centered')
 
 #selection=option_menu(menu_title="Main Menu",options=["Single Prediction","Multi Prediction"],icons=["cast","book","cast"],menu_icon="house",default_index=0)
 with st.sidebar:
+    st.image("IMG_5839-removebg-preview.png")
+    st.write()
     st.title("Home Page")
     selection=st.radio("select your option",options=["predict a Single Crime Case", "Predict for Multi-Criime cases"])
 
