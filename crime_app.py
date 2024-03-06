@@ -236,7 +236,7 @@ def multi(input_data):
             
         st.subheader('Here is your prediction')
         prediction_output = pd.Series(interchange, name='Crime Prediction  results')
-        prediction_id = pd.Series(np.arange(len(interchange)),name="Patient_ID")
+        prediction_id = pd.Series(np.arange(len(interchange)),name="CASE_ID")
         dfresult = pd.concat([prediction_id, prediction_output], axis=1)
         st.dataframe(dfresult)
         st.markdown(filedownload(dfresult), unsafe_allow_html=True)
